@@ -24,6 +24,7 @@
     <ProjectGuid>{0cd439d4-ce6d-4fa4-ac30-3e56e859fb9e}</ProjectGuid>
     <RootNamespace>Order</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Lab4</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,7 +128,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Book.cpp" />
+    <ClCompile Include="Lab4.cpp" />
     <ClCompile Include="Order.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Book.h" />
+    <ClInclude Include="Order.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
